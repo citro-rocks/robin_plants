@@ -1,0 +1,26 @@
+//imports
+
+@import 'base/typography';
+
+@import 'componnents/buttons';
+@import 'componnents/cards';
+@import 'componnents/carusel';
+@import 'componnents/slider';
+@import 'componnents/tabs';
+
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/navigation';
+
+@import 'pages/about_us';
+@import 'pages/contact';
+@import 'pages/home';
+@import 'pages/product_page';
+@import 'pages/product_list';
+@import 'pages/services';
+@import 'pages/copyrigh';
+
+@import 'utilities/functions';
+@import 'utilities/mixins';
+@import 'utilities/variables';
