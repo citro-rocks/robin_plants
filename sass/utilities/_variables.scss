@@ -8,7 +8,13 @@
     $color5: rgba(186, 217, 181, 1); //#bad9b5 light green
 
     //fonts
-    $mainFont: 'Poppins';
+
+    @font-face {
+      font-family: 'Poppins-Regular';
+      src: url('Fonts/Poppins-Regular.ttf') format('truetype');
+    }
+
+    $mainFont: 'Poppins-Regular';
     $font: 'Roboto';
     $h1: 46px;
     $h2: 32px;

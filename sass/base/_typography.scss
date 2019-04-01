@@ -1,20 +1,49 @@
 // Typography rules
+
+
 @import 'utilities/variables';
-@font-face {
-  font-family: 'Poppins';
-  src: url('Fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
-       url('Fonts/Poppins/Poppins-Bold.ttf') format('truetype'),
-       url('Fonts/Poppins/Poppins-Italic.ttf') format('truetype')
-       url('Font/Poppins/Poppins-light.ttf') format('truetype'),
-       url('Fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
-       url('Fonts/Roboto/Roboto-Light.ttf') format('truetype'),
-       url('Fonts/Roboto/Roboto-Bold.ttf') format('truetype');
-}
+
+
+
+ //@font-face {
+   //font-family: 'Roboto';
+   //src: url('Fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+    //     url('Fonts/Roboto/Roboto-Light.ttf') format('truetype'),
+    //     url('Fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+
+ //}
+
 
 h1 {
   color: $color3;
+  font-family: $mainFont;
+}
+
+h2 {
+  font-family: 'Poppins-Regular';
+}
+
+h3 {
+  font-family: 'Poppins-Regular';
+
+}
+
+h4 {
+  font-family: 'Poppins-Regular';
+
+}
+
+h5 {
+  font-family: 'Poppins-Regular';
+
+}
+
+p {
+  color: $color1;
+  font-family:'Roboto';
 }
 
 a {
-  color: $color3;
+  color: $color4;
+  font-family: 'Roboto';
 }

@@ -1,57 +1,61 @@
-/*
-Error: File to import not found or unreadable: pages/product_list.
-       Load path: /home/nikola/Templates/GitHub/robin_plants/sass
-        on line 20 of /home/nikola/Templates/GitHub/robin_plants/sass/main.scss
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("Fonts/Poppins-Regular.ttf") format("truetype"); }
+h1 {
+  color: #157f1f;
+  font-family: "Poppins-Regular"; }
 
-15: 
-16: @import 'pages/about_us';
-17: @import 'pages/contact';
-18: @import 'pages/home';
-19: @import 'pages/product_page';
-20: @import 'pages/product_list';
-21: @import 'pages/services';
-22: @import 'pages/copyrigh';
-23: 
-24: @import 'utilities/functions';
-25: @import 'utilities/mixins';
+h2 {
+  font-family: 'Poppins-Regular'; }
 
-Backtrace:
-/home/nikola/Templates/GitHub/robin_plants/sass/main.scss:20
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:44:in `import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/usr/share/koala/bin/sass:22:in `load'
-/usr/share/koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: pages/product_list.\A        Load path: /home/nikola/Templates/GitHub/robin_plants/sass\A         on line 20 of /home/nikola/Templates/GitHub/robin_plants/sass/main.scss\A \A 15: \A 16: @import 'pages/about_us';\A 17: @import 'pages/contact';\A 18: @import 'pages/home';\A 19: @import 'pages/product_page';\A 20: @import 'pages/product_list';\A 21: @import 'pages/services';\A 22: @import 'pages/copyrigh';\A 23: \A 24: @import 'utilities/functions';\A 25: @import 'utilities/mixins';"; }
+h3 {
+  font-family: 'Poppins-Regular'; }
+
+h4 {
+  font-family: 'Poppins-Regular'; }
+
+h5 {
+  font-family: 'Poppins-Regular'; }
+
+p {
+  color: #454955;
+  font-family: 'Roboto'; }
+
+a {
+  color: #d1f0b1;
+  font-family: 'Roboto'; }
+
+.card {
+  padding: 1%;
+  text-align: center;
+  background-color: #d1f0b1; }
+
+.jumbotron {
+  width: 100%;
+  height: auto;
+  align-content: center;
+  padding: 5%; }
+
+.page-footer {
+  background-color: #454955;
+  padding: 5%; }
+
+.container {
+  width: 100%; }
+  .container .row {
+    align-items: center; }
+
+.title-home {
+  display: block;
+  margin: 10%; }
+
+.header-home {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("Fonts/Poppins-Regular.ttf") format("truetype"); }
+
+/*# sourceMappingURL=main.css.map */
