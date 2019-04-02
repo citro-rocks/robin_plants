@@ -6,7 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Template_One</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
   </head>
     <body>
       <!-- Navigation -->
@@ -44,15 +45,24 @@
       </nav>
 
       <!-- Heading -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="jumbotron jumbotron-fluid">
-            <h2 class="display-4">Product</h2>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <p></p>
+      <header>
+        <div class="header-product">
+          <div class="container-fluid p-5">
+            <div class="row">
+              <div class="title-home">
+                <h1 class="display-1">Product</h1>
+                <hr class="my-4">
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <!--
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+                -->
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </header>
 
       <!-- Section -->
 
@@ -124,12 +134,12 @@
 
       <!-- Footer -->
       <footer class="page-footer font-small indigo">
-          <div class="container-fluid text-center text-md-left">
-            <div class="row">
-              <div class="col-md-3 mx-auto">
+          <div class="container">
+            <div class="row align-items-baseline">
+              <div class="col-md-3 justify-content-center align-items-center">
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
+                <h5 class="font-weight-bold text-uppercase">Links</h5>
+      
                 <ul class="list-unstyled">
                   <li>
                     <a href="index.html">Home</a>
@@ -149,9 +159,10 @@
                 </ul>
               </div>
               <hr class="clearfix w-100 d-md-none">
-              <div class="col-md-3 mx-auto">
+              
+              <div class="col-md-3">
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Products</h5>
+                <h5 class="font-weight-bold text-uppercase">Products</h5>
                 <ul class="list-unstyled">
                   <li>
                     <a href="#!">Category One</a>
@@ -165,9 +176,10 @@
                 </ul>
               </div>
               <hr class="clearfix w-100 d-md-none">
-              <div class="col-md-3 mx-auto">
+              
+              <div class="col-md-3 justify-content-center align-items-center">
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
+                <h5 class="font-weight-bold text-uppercase">Contact</h5>
                 <ul class="list-unstyled">
                   <li>
                     <a href="contact.html">Street name, No<br/> City, Post Code<br/>Country</a>
@@ -175,17 +187,19 @@
                 </ul>
               </div>
               <hr class="clearfix w-100 d-md-none">
-              <div class="col-md-3 mx-auto">
+              
+              <div class="col-md-3 justify-content-center align-items-center">
                 <div class="img-logo p-5">
                   <a href="index.html">Logo here
                    <img src="https://imgplaceholder.com/120x100/ff7f7f/333333/fa-image" class="img-fluid" alt="Responsive image">
                   </a>
                 </div>
               </div>
+            </div>
           </div>
           <!-- Copyright -->
           <div class="footer-copyright text-center py-3">© 2019 Copyright:
-            <a href="#">CompanyName</a>
+            <a href="index.html">CompanyName</a>
           </div>
           <!-- Copyright -->
         </footer>

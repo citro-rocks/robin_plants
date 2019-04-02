@@ -46,9 +46,51 @@ a {
   display: block;
   margin: 10%; }
 
+.header-about {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+.header-contact {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
 .header-home {
   height: auto;
   background-color: #d1f0b1;
   align-content: center; }
+
+.header-services {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+#service-one {
+  background-color: #f3eff5;
+  padding: 5%; }
+
+.service-one .container-fluid {
+  align-content: center; }
+  .service-one .container-fluid .row .top-row {
+    align-items: center; }
+    .service-one .container-fluid .row .top-row h2 {
+      text-align: center;
+      margin: 2%; }
+    .service-one .container-fluid .row .top-row p {
+      text-align: justify; }
+  .service-one .container-fluid .bottom-row {
+    background-color: red; }
+  .service-one .container-fluid .service-gallery {
+    align-items: center;
+    padding: 2%; }
+
+#service-two {
+  background-color: #d1f0b1;
+  padding: 5%; }
+
+#service-three {
+  background-color: #f3eff5;
+  padding: 5%; }
 
 /*# sourceMappingURL=main.css.map */
