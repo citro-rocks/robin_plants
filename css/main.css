@@ -1,29 +1,26 @@
-@font-face {
-  font-family: 'Poppins-Regular';
-  src: url("Fonts/Poppins-Regular.ttf") format("truetype"); }
 h1 {
   color: #157f1f;
-  font-family: "Poppins-Regular"; }
+  font-family: "Poppins", sans-serif; }
 
 h2 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif; }
 
 h3 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif; }
 
 h4 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif; }
 
 h5 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif; }
 
 p {
   color: #454955;
-  font-family: 'Roboto'; }
+  font-family: "Roboto", sans-serif; }
 
 a {
   color: #d1f0b1;
-  font-family: 'Roboto'; }
+  font-family: "Roboto", sans-serif; }
 
 .card {
   padding: 1%;
@@ -53,9 +50,5 @@ a {
   height: auto;
   background-color: #d1f0b1;
   align-content: center; }
-
-@font-face {
-  font-family: 'Poppins-Regular';
-  src: url("Fonts/Poppins-Regular.ttf") format("truetype"); }
 
 /*# sourceMappingURL=main.css.map */

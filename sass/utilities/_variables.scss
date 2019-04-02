@@ -9,13 +9,9 @@
 
     //fonts
 
-    @font-face {
-      font-family: 'Poppins-Regular';
-      src: url('Fonts/Poppins-Regular.ttf') format('truetype');
-    }
+    $fontOne: 'Poppins', sans-serif;
+    $fontTwo: 'Roboto', sans-serif;
 
-    $mainFont: 'Poppins-Regular';
-    $font: 'Roboto';
     $h1: 46px;
     $h2: 32px;
     $h3: 21px;

@@ -2,6 +2,7 @@
 
 
 @import 'utilities/variables';
+@import 'base/fonts';
 
 
 
@@ -16,34 +17,34 @@
 
 h1 {
   color: $color3;
-  font-family: $mainFont;
+  font-family: $fontOne;
 }
 
 h2 {
-  font-family: 'Poppins-Regular';
+  font-family: $fontOne;
 }
 
 h3 {
-  font-family: 'Poppins-Regular';
+  font-family: $fontOne;
 
 }
 
 h4 {
-  font-family: 'Poppins-Regular';
+  font-family: $fontOne;
 
 }
 
 h5 {
-  font-family: 'Poppins-Regular';
+  font-family: $fontOne;
 
 }
 
 p {
   color: $color1;
-  font-family:'Roboto';
+  font-family: $fontTwo;
 }
 
 a {
   color: $color4;
-  font-family: 'Roboto';
+  font-family: $fontTwo;
 }
