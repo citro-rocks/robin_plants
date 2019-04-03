@@ -81,6 +81,8 @@ a {
 #service-one {
   background-color: #f3eff5;
   padding: 5%; }
+  #service-one .service-gallery {
+    background-color: red; }
 
 #service-two {
   background-color: #d1f0b1;
