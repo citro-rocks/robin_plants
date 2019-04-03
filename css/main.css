@@ -74,15 +74,15 @@ a {
   align-content: center; }
 
 .header-services {
-  height: auto;
-  background-color: #d1f0b1;
-  align-content: center; }
+  height: 700px;
+  align-content: center;
+  background-image: url(images/flower-1.jpg);
+  background-repeat: no-repeat;
+  background-position: left; }
 
 #service-one {
   background-color: #f3eff5;
   padding: 5%; }
-  #service-one .service-gallery {
-    background-color: red; }
 
 #service-two {
   background-color: #d1f0b1;

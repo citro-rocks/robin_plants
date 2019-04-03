@@ -1,18 +1,17 @@
 //services page styles
 .header-services {
-  height: auto;
-  background-color: $color4;
+  height: 700px;
   align-content: center;
+  background-image: url(images/flower-1.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+
 }
 
 #service-one {
   background-color: $color2;
   padding: 5%;
-  
-  .service-gallery {
-    background-color: red;
 
-  }
 }
 
 
