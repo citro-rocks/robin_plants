@@ -6,12 +6,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Template_One</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
   </head>
     <body>
       <!-- Navigation -->
       <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand p-3" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,16 +24,21 @@
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product_list.html">Products</a>
+            </li>
+            <!--
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="product_list.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Products
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="product_list.html#productOne">Product group one</a>
-                <a class="dropdown-item" href="product_list.html#productTwo">Product group two</a>
-                <a class="dropdown-item" href="product_list.html#productThree">Product group three</a>
-              </div>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="product_list.html#tabA">Product group one</a>
+                  <a class="dropdown-item" href="product_list.html#tabB">Product group two</a>
+                  <a class="dropdown-item" href="product_list.html#tabC">Product group three</a>
+                </div>
             </li>
+            -->
             <li class="nav-item">
               <a class="nav-link" href="about_us.html">About Us</a>
             </li>
@@ -77,11 +83,11 @@ Quo ne erant veniam vivendo, quo omittam apeirian explicari cu. Mei harum audiam
 
       <!-- Footer -->
       <footer class="page-footer font-small indigo">
-          <div class="container text-center text-md-left">
-            <div class="row">
-              <div class="col-md-3 mx-auto">
+          <div class="container">
+            <div class="row align-items-baseline">
+              <div class="col-md-3 justify-content-center align-items-center">
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                <h5 class="font-weight-bold text-uppercase">Links</h5>
 
                 <ul class="list-unstyled">
                   <li>
@@ -102,9 +108,10 @@ Quo ne erant veniam vivendo, quo omittam apeirian explicari cu. Mei harum audiam
                 </ul>
               </div>
               <hr class="clearfix w-100 d-md-none">
-              <div class="col-md-3 mx-auto">
+
+              <div class="col-md-3">
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Products</h5>
+                <h5 class="font-weight-bold text-uppercase">Products</h5>
                 <ul class="list-unstyled">
                   <li>
                     <a href="#!">Category One</a>
@@ -118,9 +125,10 @@ Quo ne erant veniam vivendo, quo omittam apeirian explicari cu. Mei harum audiam
                 </ul>
               </div>
               <hr class="clearfix w-100 d-md-none">
-              <div class="col-md-3 mx-auto">
+
+              <div class="col-md-3 justify-content-center align-items-center">
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact</h5>
+                <h5 class="font-weight-bold text-uppercase">Contact</h5>
                 <ul class="list-unstyled">
                   <li>
                     <a href="contact.html">Street name, No<br/> City, Post Code<br/>Country</a>
@@ -128,17 +136,19 @@ Quo ne erant veniam vivendo, quo omittam apeirian explicari cu. Mei harum audiam
                 </ul>
               </div>
               <hr class="clearfix w-100 d-md-none">
-              <div class="col-md-3 mx-auto">
+
+              <div class="col-md-3 justify-content-center align-items-center">
                 <div class="img-logo p-5">
                   <a href="index.html">Logo here
                    <img src="https://imgplaceholder.com/120x100/ff7f7f/333333/fa-image" class="img-fluid" alt="Responsive image">
                   </a>
                 </div>
               </div>
+            </div>
           </div>
           <!-- Copyright -->
           <div class="footer-copyright text-center py-3">© 2019 Copyright:
-            <a href="#">CompanyName</a>
+            <a href="index.html">CompanyName</a>
           </div>
           <!-- Copyright -->
         </footer>

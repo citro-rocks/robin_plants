@@ -12,7 +12,7 @@
     <body>
       <!-- navbar -->
       <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand p-3" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,16 +24,21 @@
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product_list.html">Products</a>
+            </li>
+            <!--
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="product_list.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Products
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="product_list.html#tabA">Product group one</a>
-                <a class="dropdown-item" href="product_list.html#tabB">Product group two</a>
-                <a class="dropdown-item" href="product_list.html#tabC">Product group three</a>
-              </div>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="product_list.html#tabA">Product group one</a>
+                  <a class="dropdown-item" href="product_list.html#tabB">Product group two</a>
+                  <a class="dropdown-item" href="product_list.html#tabC">Product group three</a>
+                </div>
             </li>
+            -->
             <li class="nav-item">
               <a class="nav-link" href="about_us.html">About Us</a>
             </li>
@@ -51,7 +56,7 @@
     <div class="container-fluid p-5">
       <div class="row">
         <div class="title-home">
-          <h1 class="display">Helo green world!</h1>
+          <h1 class="display-1">Helo green world!</h1>
           <hr class="my-4">
           <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
           <!--
@@ -159,7 +164,7 @@
     <div class="container p-5">
       <div class="row">
         <div class="col-md-6">
-          <h5>Our mission</h5>
+          <h2>Our mission</h2>
           <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <div class="col-md-6">
@@ -176,38 +181,41 @@
           <img src="https://imgplaceholder.com/1000x600/9ab19a/17201e/fa-image" class="img-fluid" alt="Responsive image">
         </div>
         <div class="col-md-6">
-          <h5>Our massage</h5>
+          <h2>Our massage</h2>
           <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
     </div>
   </div>
   <!-- Partners -->
-  <div class="section" id="images">
-    <div class="container-fluid d-flex justify-content-center p-5">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" alt="">
+<section>
+  <div class="section p-5" id="images">
+    <h2>Our Partners</h2>
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="row m-3">
+        <div class="col-lg-3 col-sm-6">
+          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" class="img-fluid" alt="">
         </div>
-        <div class="col-md-3 col-sm-6">
-          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" alt="">
+        <div class="col-lg-3 col-sm-6">
+          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" class="img-fluid" alt="">
         </div>
-        <div class="col-md-3 col-sm-6">
-          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" alt="">
+        <div class="col-lg-3 col-sm-6">
+          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" class="img-fluid" alt="">
         </div>
-        <div class="col-md-3 col-sm-6">
-          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" alt="">
+        <div class="col-lg-3 col-sm-6">
+          <img src="https://imgplaceholder.com/250x150/ff7f7f/333333/fa-image" class="img-fluid" alt="">
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   <!--  -->
 
   <!-- Footer -->
 <footer class="page-footer font-small indigo">
-    <div class="container d-flex justify-content-center">
-      <div class="row align-self-baseline">
-        <div class="col-md-3">
+    <div class="container">
+      <div class="row align-items-baseline">
+        <div class="col-md-3 justify-content-center align-items-center">
           <!-- Links -->
           <h5 class="font-weight-bold text-uppercase">Links</h5>
 
@@ -230,6 +238,7 @@
           </ul>
         </div>
         <hr class="clearfix w-100 d-md-none">
+
         <div class="col-md-3">
           <!-- Links -->
           <h5 class="font-weight-bold text-uppercase">Products</h5>
@@ -246,7 +255,8 @@
           </ul>
         </div>
         <hr class="clearfix w-100 d-md-none">
-        <div class="col-md-3">
+
+        <div class="col-md-3 justify-content-center align-items-center">
           <!-- Links -->
           <h5 class="font-weight-bold text-uppercase">Contact</h5>
           <ul class="list-unstyled">
@@ -256,7 +266,8 @@
           </ul>
         </div>
         <hr class="clearfix w-100 d-md-none">
-        <div class="col-md-3">
+
+        <div class="col-md-3 justify-content-center align-items-center">
           <div class="img-logo p-5">
             <a href="index.html">Logo here
              <img src="https://imgplaceholder.com/120x100/ff7f7f/333333/fa-image" class="img-fluid" alt="Responsive image">

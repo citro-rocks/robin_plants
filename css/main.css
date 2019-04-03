@@ -1,29 +1,28 @@
-@font-face {
-  font-family: 'Poppins-Regular';
-  src: url("Fonts/Poppins-Regular.ttf") format("truetype"); }
 h1 {
   color: #157f1f;
-  font-family: "Poppins-Regular"; }
+  font-family: "Poppins", sans-serif; }
 
 h2 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif;
+  text-align: center; }
 
 h3 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif; }
 
 h4 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif; }
 
 h5 {
-  font-family: 'Poppins-Regular'; }
+  font-family: "Poppins", sans-serif;
+  text-align: center; }
 
 p {
   color: #454955;
-  font-family: 'Roboto'; }
+  font-family: "Roboto", sans-serif; }
 
 a {
   color: #d1f0b1;
-  font-family: 'Roboto'; }
+  font-family: "Roboto", sans-serif; }
 
 .card {
   padding: 1%;
@@ -49,13 +48,46 @@ a {
   display: block;
   margin: 10%; }
 
+.header-about {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+.header-contact {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
 .header-home {
   height: auto;
   background-color: #d1f0b1;
   align-content: center; }
 
-@font-face {
-  font-family: 'Poppins-Regular';
-  src: url("Fonts/Poppins-Regular.ttf") format("truetype"); }
+.header-product {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+.header-products {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+.header-services {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+#service-one {
+  background-color: #f3eff5;
+  padding: 5%; }
+
+#service-two {
+  background-color: #d1f0b1;
+  padding: 5%; }
+
+#service-three {
+  background-color: #f3eff5;
+  padding: 5%; }
 
 /*# sourceMappingURL=main.css.map */

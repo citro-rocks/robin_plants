@@ -1,1 +1,23 @@
 //services page styles
+.header-services {
+  height: auto;
+  background-color: $color4;
+  align-content: center;
+}
+
+#service-one {
+  background-color: $color2;
+  padding: 5%;
+}
+
+
+#service-two {
+  background-color: $color4;
+  padding: 5%;
+
+}
+
+#service-three {
+  background-color: $color2;
+  padding: 5%;
+}
