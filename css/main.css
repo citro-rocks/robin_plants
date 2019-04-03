@@ -3,7 +3,8 @@ h1 {
   font-family: "Poppins", sans-serif; }
 
 h2 {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  text-align: center; }
 
 h3 {
   font-family: "Poppins", sans-serif; }
@@ -12,7 +13,8 @@ h4 {
   font-family: "Poppins", sans-serif; }
 
 h5 {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  text-align: center; }
 
 p {
   color: #454955;
@@ -61,6 +63,16 @@ a {
   background-color: #d1f0b1;
   align-content: center; }
 
+.header-product {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
+.header-products {
+  height: auto;
+  background-color: #d1f0b1;
+  align-content: center; }
+
 .header-services {
   height: auto;
   background-color: #d1f0b1;
@@ -69,21 +81,6 @@ a {
 #service-one {
   background-color: #f3eff5;
   padding: 5%; }
-
-.service-one .container-fluid {
-  align-content: center; }
-  .service-one .container-fluid .row .top-row {
-    align-items: center; }
-    .service-one .container-fluid .row .top-row h2 {
-      text-align: center;
-      margin: 2%; }
-    .service-one .container-fluid .row .top-row p {
-      text-align: justify; }
-  .service-one .container-fluid .bottom-row {
-    background-color: red; }
-  .service-one .container-fluid .service-gallery {
-    align-items: center;
-    padding: 2%; }
 
 #service-two {
   background-color: #d1f0b1;

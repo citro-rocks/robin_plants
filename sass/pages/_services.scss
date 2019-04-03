@@ -10,35 +10,6 @@
   padding: 5%;
 }
 
-.service-one {
-  .container-fluid {
-    align-content: center;
-
-    .row .top-row {
-      align-items: center;
-
-      .col-md-5 {
-
-      }
-      h2{
-        text-align: center;
-        margin: 2%;
-      }
-      p {
-        text-align: justify;
-      }
-
-    }
-    .bottom-row {
-      background-color: red;
-    }
-    .service-gallery {
-      align-items: center;
-      padding: 2%;
-    }
-  }
-}
-
 
 #service-two {
   background-color: $color4;
