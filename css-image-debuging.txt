@@ -1,0 +1,30 @@
+
+
+Tips for debugging and other info, which should hopefully lead you to the correct answer:
+
+    Check to see if you can see the image directly in your web browser. If the path you're using to the HTML file is, for example, "http://example.com/some/dir/index.html", then browse directly to "http://example.com/some/dir/image.jpg" and see if the image appears. If it doesn't, then your image is inaccessible, or in the wrong place, or possibly corrupt or being served with the wrong Content-Type.
+
+    If the image is in the right place but seems inaccessible, check the file permissions first. The file should be readable by the web server. If in doubt, give it the same ownership and permissions as the HTML file you're successfully reading. (On Windows, view the properties/permissions of the file and allow everyone to read it. On Unix, try chmod 644 <filename>.)
+
+    Consider the possibility that the image might actually be working fine, but also be a single pixel, or completely transparent, or a plain colour the same as its background, or positioned out of sight with the CSS positioning attributes.
+
+    Try temporarily using another image, preferably one you can definitely see on the web in the web browser you're using for testing, downloaded with that browser (that will make sure there are no weird problems with the image file itself.)
+
+    Remember that if you're defining the background in a CSS file, the path to the image is relative to that CSS file, not to the HTML file.
+
+    The "background" attribute is deprecated in HTML. If you want to specify a background inline in the HTML, try <body style="background-image: url(image.jpg);" >...</body>. But the proper place for this would be in the CSS these days.
+
+    You don't need "./" in front of your image location. If it's in the same directory as your HTML file, just use the name of the image, e.g. <body style="background-image: url(image.jpg);">
+
+    Does it work as a plain image? <img src="background.jpg"/>
+
+    Sanity-check your HTML by using a very simple, valid test document, like this one:
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body style="background-image: url(http://placehold.it/350x150);">
+        This is a test.
+    </body>
