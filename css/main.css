@@ -29,6 +29,15 @@ a {
   text-align: center;
   background-color: #d1f0b1; }
 
+#nav-tabs .row {
+  justify-content: center; }
+#nav-tabs .nav-tabs-wrapper {
+  display: inline-block; }
+#nav-tabs a {
+  color: gray; }
+#nav-tabs .nav-tabs {
+  text-align: center; }
+
 .jumbotron {
   width: 100%;
   height: auto;
@@ -76,17 +85,8 @@ a {
 
 .header-products {
   height: auto;
-  background-color: #bad9b5;
+  background-color: #d1f0b1;
   align-content: center; }
-
-#nav-tabs .row {
-  justify-content: center; }
-#nav-tabs .nav-tabs-wrapper {
-  display: inline-block; }
-#nav-tabs a {
-  color: red; }
-#nav-tabs .nav-tabs {
-  text-align: center; }
 
 .header-services {
   background-image: url(images/545.jpg);
