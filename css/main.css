@@ -54,6 +54,15 @@ a {
   display: block;
   margin: 10%; }
 
+#nav-tabs .row {
+  justify-content: center; }
+#nav-tabs .nav-tabs-wrapper {
+  display: inline-block; }
+#nav-tabs a {
+  color: #454955; }
+#nav-tabs .nav-tabs {
+  text-align: center; }
+
 .header-about {
   height: auto;
   background-color: #d1f0b1;
@@ -76,17 +85,8 @@ a {
 
 .header-products {
   height: auto;
-  background-color: #bad9b5;
+  background-color: #f3eff5;
   align-content: center; }
-
-#nav-tabs .row {
-  justify-content: center; }
-#nav-tabs .nav-tabs-wrapper {
-  display: inline-block; }
-#nav-tabs a {
-  color: red; }
-#nav-tabs .nav-tabs {
-  text-align: center; }
 
 .header-services {
   background-image: url(images/545.jpg);
