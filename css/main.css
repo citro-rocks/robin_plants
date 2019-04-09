@@ -1,102 +1,132 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/base\/_typography\.scss}line{font-family:\0000318}}
 h1 {
   color: #157f1f;
   font-family: "Poppins", sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 h2 {
   font-family: "Poppins", sans-serif;
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
 h3 {
   font-family: "Poppins", sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/base\/_typography\.scss}line{font-family:\0000333}}
 h4 {
   font-family: "Poppins", sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/base\/_typography\.scss}line{font-family:\0000338}}
 h5 {
   font-family: "Poppins", sans-serif;
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/base\/_typography\.scss}line{font-family:\0000344}}
 p {
   color: #454955;
   font-family: "Roboto", sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/base\/_typography\.scss}line{font-family:\0000349}}
 a {
   color: #d1f0b1;
   font-family: "Roboto", sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/componnents\/_cards\.scss}line{font-family:\000034}}
 .card {
   padding: 1%;
   text-align: center;
   background-color: #d1f0b1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/componnents\/_tabs\.scss}line{font-family:\000038}}
 #nav-tabs .row {
   justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/componnents\/_tabs\.scss}line{font-family:\0000311}}
 #nav-tabs .nav-tabs-wrapper {
   display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/componnents\/_tabs\.scss}line{font-family:\0000320}}
 #nav-tabs a {
   color: gray; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/componnents\/_tabs\.scss}line{font-family:\0000323}}
 #nav-tabs .nav-tabs {
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/componnents\/_jumbotron\.scss}line{font-family:\000033}}
 .jumbotron {
   width: 100%;
   height: auto;
   align-content: center;
   padding: 5%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_footer\.scss}line{font-family:\000032}}
 .page-footer {
   background-color: #454955;
   padding: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_footer\.scss}line{font-family:\0000310}}
+  .page-footer .row {
+    text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_footer\.scss}line{font-family:\0000313}}
   .page-footer .col-md-3 {
-    text-align: center;
     float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_footer\.scss}line{font-family:\0000316}}
   .page-footer h5 {
-    text-align: center;
-    float: none; }
+    text-align: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_grid\.scss}line{font-family:\000032}}
 .container {
   width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_grid\.scss}line{font-family:\000035}}
   .container .row {
     align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_header\.scss}line{font-family:\000032}}
 .title-home {
   display: block;
   margin: 10%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_navigation\.scss}line{font-family:\000038}}
 #nav-tabs .row {
   justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_navigation\.scss}line{font-family:\0000311}}
 #nav-tabs .nav-tabs-wrapper {
   display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_navigation\.scss}line{font-family:\0000320}}
 #nav-tabs a {
   color: #454955; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/layout\/_navigation\.scss}line{font-family:\0000323}}
 #nav-tabs .nav-tabs {
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_about_us\.scss}line{font-family:\000032}}
 .header-about {
   height: auto;
   background-color: #d1f0b1;
   align-content: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_contact\.scss}line{font-family:\000032}}
 .header-contact {
   height: 700px;
   background-color: #d1f0b1;
   align-content: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_home\.scss}line{font-family:\000032}}
 .header-home {
   height: auto;
   background-color: #d1f0b1;
   align-content: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_product_page\.scss}line{font-family:\000032}}
 .header-product {
   height: auto;
   background-color: #d1f0b1;
   align-content: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_ptoduct_list\.scss}line{font-family:\000032}}
 .header-products {
   height: auto;
   background-color: #d1f0b1;
   align-content: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_services\.scss}line{font-family:\000032}}
 .header-services {
   background-image: url(images/545.jpg);
   background-size: cover;
@@ -105,14 +135,17 @@ a {
   height: 700px;
   align-content: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_services\.scss}line{font-family:\0000315}}
 #service-one {
   background-color: #f3eff5;
   padding: 5%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_services\.scss}line{font-family:\0000322}}
 #service-two {
   background-color: #d1f0b1;
   padding: 5%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Nikola\/Robin\/sass\/pages\/_services\.scss}line{font-family:\0000328}}
 #service-three {
   background-color: #f3eff5;
   padding: 5%; }
