@@ -3,16 +3,22 @@
   background-color: $color1;
   padding: 5%;
 
+  .container {
+
+  }
+
   .row {
-    align-items: baseline;
+
   }
   .col-md-3 {
-    text-align: left;
+    text-align: center;
+    float: none;
   }
   h5 {
-    text-align: left;
+    text-align: center;
+    float: none;
   }
   img {
-  
+
   }
 }

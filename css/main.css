@@ -47,12 +47,12 @@ a {
 .page-footer {
   background-color: #454955;
   padding: 5%; }
-  .page-footer .row {
-    align-items: baseline; }
   .page-footer .col-md-3 {
-    text-align: left; }
+    text-align: center;
+    float: none; }
   .page-footer h5 {
-    text-align: left; }
+    text-align: center;
+    float: none; }
 
 .container {
   width: 100%; }
